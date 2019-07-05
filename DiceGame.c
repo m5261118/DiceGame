@@ -14,9 +14,9 @@ int main(){
   sum=num1+num2;
   printf("Rolling the dice ..\nDie 1: %d\nDie 2: %d\nTotal value: %d\n",num1,num2,sum);
   if(sum>=7)
-    printf("you won\n",name);
+    printf("%s won\n",name);
   else
-    printf("you false\n",name);
+    printf("%s false\n",name);
   return 0;
 }
   
